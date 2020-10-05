@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-light .navbar-brand {
+    font-size: 1.9rem !important;
+    color: white;
+    padding-left: 10px ;
+}
+.navbar a{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.manu_active{
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+@media(max-width: 991px){
+    .navbar-brand{
+        font-size: 1.5rem !important;
+    }
+    .manu_active{
+        font-weight: bold;
+        border-bottom: none;
+    }
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.nav{
+    height:10vh;
+    background-color: #5b78c7 !important;
+}
+
+.Landing{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    
+    nav{
+        position: relative;
+    }
+    
+    .nav-link{
+        position: fixed;
+        background-color: #5b78c7;
+        height: 100vh;
+        width: 100%;
+        flex-direction: row;
+    }
+}
