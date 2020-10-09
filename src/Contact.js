@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Contact.css"
 
 function Contact() {
   const [data, setData] = useState({
@@ -29,7 +30,7 @@ function Contact() {
       <div className="container-fluid">
         <form onSubmit={formSubmit}>
           <div class="form-row">
-            <div class="form-group col-md-6">
+            <div class="form-group input-group col-md-6">
               <label>fullname</label>
               <input
                 name="fullname"
@@ -41,7 +42,7 @@ function Contact() {
               />
             </div>
 
-            <div class="form-group col-md-6">
+            <div class="form-group input-group col-md-6">
               <label>Email</label>
               <input
                 name="email"
@@ -53,7 +54,7 @@ function Contact() {
               />
             </div>
 
-            <div class="form-group col-md-6">
+            <div class="form-group input-group col-md-6">
               <label for="inputEmail4">Phone Number</label>
               <input
                 name="phone"
@@ -65,7 +66,7 @@ function Contact() {
               />
             </div>
 
-            <div class="form-group col-md-6">
+            <div class="form-group input-group col-md-6">
               <label for="inputEmail4">Email</label>
               <input
                 name="msg"
@@ -79,7 +80,7 @@ function Contact() {
           </div>
 
           <button type="submit" class="btn btn-primary">
-            Sign in
+            Submit
           </button>
         </form>
       </div>

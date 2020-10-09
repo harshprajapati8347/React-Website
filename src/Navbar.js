@@ -35,7 +35,7 @@ function Navbar() {
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav ml-auto">
-                  <li className="nav-item active">
+                  <li className="nav-item">
                     <NavLink
                       activeClassName="manu_active"
                       className="nav-link"

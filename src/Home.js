@@ -3,13 +3,13 @@
 import React from "react"
 import "./Home.css"
 import Common from "./Common"
-import web from "../src/images/h1.jpg"
+import homePage from "../src/images/homePage.svg"
 
 
 function Home() {
   return (
     <>
-      <Common name='Grow Your Business With' imgsrc={web} visit="/service" btname='Get Started'  />
+      <Common name='Grow Your Business With' imgsrc={homePage} visit="/service" btname='Get Started'  />
 
 
     </>

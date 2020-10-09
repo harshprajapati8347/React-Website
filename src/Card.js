@@ -1,13 +1,14 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable react/style-prop-object */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import {NavLink} from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
 
 function Card(props) {
   return (
     <>
-      <div className="col-md-4 col-10 mx-auto">
+      
+      <div className="col-md-4 col-10 mx-auto ">
         <div class="card">
           <img src={props.imgsrc} class="card-img-top" alt={props.img} />
           <div class="card-body">
