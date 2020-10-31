@@ -1,36 +1,34 @@
-import web from "../src/images/h1.jpg";
-import app from "../src/images/h2.jpg";
-import Software from "../src/images/h3.jpg";
-import Digital from "../src/images/h4.jpg";
-import Hardware from "../src/images/h5.jpg";
-import Hacking from "../src/images/h6.jpg";
-// import homePage from "../src/images/homePage.svg"
+import a11  from './images/a11.jpg'
+import a12  from './images/a12.png'
+import a13  from './images/a13.jpg'
+import a14  from './images/a14.jpg'
+import a15  from './images/a15.jpg'
+
 
 const Sdata = [
-  {
-    imgsrc: web,
-    title: "web development",
-  },
-  {
-    imgsrc: app,
-    title: "App development",
-  },
-  {
-    imgsrc: Software,
-    title: "Software development",
-  },
-  {
-    imgsrc: Digital,
-    title: "Digital development",
-  },
-  {
-    imgsrc: Hardware,
-    title: "Hardware development",
-  },
-  {
-    imgsrc: Hacking,
-    title: "Ethical Hacking",
-  },
-];
-
+    {
+        imgSrc : a11,
+        title : 'Web Development'
+    },
+    {
+        imgSrc : a12,
+        title : 'Mobile Development'
+    },
+    {
+        imgSrc : a13,
+        title : 'IOS Development'
+    },
+    {
+        imgSrc : a14,
+        title : 'Android  Development'
+    },
+    {
+        imgSrc : a15,
+        title : 'SEO Development'
+    },
+    {
+        imgSrc : a12,
+        title : 'Hyberd Application Development'
+    },
+]
 export default Sdata;
